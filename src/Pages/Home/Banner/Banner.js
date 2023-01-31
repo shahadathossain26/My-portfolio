@@ -19,8 +19,8 @@ const Banner = () => {
 
             </div>
 
-            <div className="avatar w-full lg:w-1/2 pt-16">
-                <div className="w-96 h-[450px] lg:ml-52 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+            <div className="avatar w-full lg:w-1/2 pt-16 ">
+                <div className="w-96 h-[450px] lg:ml-52 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mx-auto">
                     <img src={bannerImage} alt="" />
                 </div>
             </div>

@@ -25,10 +25,15 @@ const MotorMania = () => {
                 <img src={image6} alt="Homepage" />
             </div>
             <h2 class="text-5xl text-center mb-5 mt-16 font-bold"><u>About This Website</u></h2>
-            <p className=' mx-10 mt-5 mb-16'>
+            <p className=' text-xl mx-10 mt-5 mb-16'>
                 • It is a website where sellers can present their products to people and earn profit. <br />
                 • This website is very user-friendly and a user can use this website with confidence. <br />
                 • If anyone with a low budget wants to buy a second-hand bike then he/she can buy the bike that he/she wants to throw this website. <br />
+                <div className='mt-5'>
+                    <button className="btn btn-primary mr-2 md:mr-5"><a href="https://motor-mania-7fd65.web.app/" rel="noreferrer" target='_blank'>Website</a></button>
+                    <button className="btn btn-primary mr-2 md:mr-5"><a href="https://github.com/shahadathossain26/motorMania-client" rel="noreferrer" target='_blank'>GitHub-Client</a></button>
+                    <button className="btn btn-primary"><a href="https://github.com/shahadathossain26/motorMania-server" rel="noreferrer" target='_blank'>GitHub-Server</a></button>
+                </div>
             </p>
             <h2 class="text-5xl text-center mb-5 mt-16 font-bold"><u>Technologies</u></h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-10 my-10'>
