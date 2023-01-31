@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     return (
@@ -10,9 +12,9 @@ const Header = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a href="/" className='font-bold hover:bg-primary hover:text-white'>Home</a></li>
-                        <li><a href="/" className='font-bold hover:bg-primary hover:text-white'>About</a></li>
-                        <li><a href="/" className='font-bold hover:bg-primary hover:text-white'>Projects</a></li>
-                        <li><a href="/" className='font-bold hover:bg-primary hover:text-white'>Blog</a></li>
+                        <li><HashLink to='#about' smooth className='font-bold hover:bg-primary hover:text-white'>About</HashLink></li>
+                        <li><HashLink to="#projects" smooth className='font-bold hover:bg-primary hover:text-white'>Projects</HashLink></li>
+                        <li><HashLink to="#blog" smooth className='font-bold hover:bg-primary hover:text-white'>Blog</HashLink></li>
                     </ul>
                 </div>
                 <a href="/" className="btn btn-ghost normal-case text-xl md:text-2xl lg:text-4xl font-bold">Shahadat</a>
@@ -20,9 +22,9 @@ const Header = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li><a href="/" className='font-bold focus:bg-primary focus:text-white'>Home</a></li>
-                    <li><a href="/" className='font-bold focus:bg-primary focus:text-white'>About</a></li>
-                    <li><a href="/" className='font-bold focus:bg-primary focus:text-white'>Projects</a></li>
-                    <li><a href="/" className='font-bold focus:bg-primary focus:text-white'>Blog</a></li>
+                    <li><HashLink to='#about' smooth className='font-bold hover:bg-primary hover:text-white'>About</HashLink></li>
+                    <li><HashLink to="#projects" smooth className='font-bold hover:bg-primary hover:text-white'>Projects</HashLink></li>
+                    <li><HashLink to="#blog" smooth className='font-bold hover:bg-primary hover:text-white'>Blog</HashLink></li>
                 </ul>
             </div>
             <div class="navbar-end">
