@@ -5,12 +5,12 @@ import image3 from '../../../../images/motor-mania/Screenshot (12).png';
 import image4 from '../../../../images/motor-mania/Screenshot (13).png';
 import image5 from '../../../../images/motor-mania/Screenshot (14).png';
 import image6 from '../../../../images/motor-mania/Screenshot (15).png';
-import image7 from '../../../../images/motor-mania/1200px-Node.js_logo.svg.png';
-import image8 from '../../../../images/motor-mania/1631110818-logo-react-js.png';
-import image9 from '../../../../images/motor-mania/1_oPL8C-i04sqAUoOdS_da9aA.jpeg';
-import image10 from '../../../../images/motor-mania/1_oPL8C-i04sqAUoOS_da9aA.jpeg';
-import image11 from '../../../../images/motor-mania/image00.png';
-import image12 from '../../../../images/motor-mania/mongodb-logo2.webp';
+import image7 from '../../../../images/motor-mania/reactjs.png';
+import image8 from '../../../../images/motor-mania/tailwind css.png';
+import image9 from '../../../../images/motor-mania/firebase.png';
+import image10 from '../../../../images/motor-mania/nodejs.png';
+import image11 from '../../../../images/motor-mania/express.png';
+import image12 from '../../../../images/motor-mania/mongoDB.png';
 
 const MotorMania = () => {
     return (
@@ -32,12 +32,12 @@ const MotorMania = () => {
             </p>
             <h2 class="text-5xl text-center mb-5 mt-16 font-bold"><u>Technologies</u></h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-10 my-10'>
-                <img src={image7} alt="Homepage" />
-                <img src={image8} alt="Homepage" />
-                <img src={image9} alt="Homepage" />
-                <img src={image10} alt="Homepage" />
-                <img src={image11} alt="Homepage" />
-                <img src={image12} alt="Homepage" />
+                <img className='mx-auto md:mx-0' src={image7} alt="Homepage" />
+                <img className='w-[300px] mx-auto' src={image8} alt="Homepage" />
+                <img className='w-[350px] mx-auto md:mx-0' src={image9} alt="Homepage" />
+                <img className='w-[300px] mx-auto md:mt-14 lg:mt-0' src={image10} alt="Homepage" />
+                <img className='mx-auto' src={image11} alt="Homepage" />
+                <img className='w-[250px] mx-auto' src={image12} alt="Homepage" />
             </div>
         </div>
     );
